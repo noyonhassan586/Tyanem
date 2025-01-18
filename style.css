@@ -1,0 +1,66 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-fonts {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* Remove Default Margin and Padding */
+* {
+    margin: 0px;
+}
+
+/* Remove Default Margin and Padding of Body */
+body {
+    margin: 0px auto;
+}
+
+body h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(63, 248, 7, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* Navbar */
+nav {
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    background-color: rgba(63, 248, 7, 0.1);
+    backdrop-filter: blur(10px);
+
+}
+
+nav ul li img {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin-top: 1.1px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar-logo {
+    width: 50px;
+    height: 52px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+}
+
+/* Styles for screens with a width of 576px or smaller */
