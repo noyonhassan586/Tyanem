@@ -79,8 +79,6 @@ nav ul {
     gap: 40px;
 }
 
-/* Styles for screens with a width of 576px or smaller */
-
 /* Banner */
 
 /* Footer */
@@ -180,48 +178,4 @@ footer h4 {
     color: white;
     font-size: smaller;
     opacity: 50%;
-}
-
-/* Cards */
-.card-container {
-    place-items: center;
-    position: relative;
-    z-index: -1;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.cards {
-    width: 70%;
-    display: grid;
-    place-items: center;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
-}
-
-.card img {
-    width: 250px;
-    height: 280px;
-    border-radius: 15px;
-    margin-bottom: 10px;
-}
-
-.card {
-    width: 280px;
-    height: 400px;
-    background-color: rgba(62, 66, 61, 0.1);
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.card button {
-    padding: 10px 30px;
-    background-color: black;
-    color: white;
-    border-radius: 10px;
 }
