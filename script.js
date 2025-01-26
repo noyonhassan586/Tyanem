@@ -1,7 +1,7 @@
 // JavaScript to handle loading animation
 document.addEventListener("DOMContentLoaded", () => {
     // Select the loading animation container
-    const loadingAnimation = document.querySelector(".loader");
+    const loadingAnimation = document.querySelector("#loader");
 
     // Hide the loading animation once the content is fully loaded
     window.addEventListener("load", () => {

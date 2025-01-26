@@ -9,15 +9,22 @@
 }
 
 /* Website Loader Animation */
-.loader {
+#loader {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: black;
     --color: hsl(0, 0%, 87%);
     --animation: 2s ease-in-out infinite;
 }
 
-.loader .circle {
+#loader .circle {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +38,7 @@
     animation: circle-keys var(--animation);
 }
 
-.loader .circle .dot {
+#loader .circle .dot {
     position: absolute;
     transform: translate(-50%, -50%);
     width: 16px;
@@ -41,7 +48,7 @@
     animation: dot-keys var(--animation);
 }
 
-.loader .circle .outline {
+#loader .circle .outline {
     position: absolute;
     transform: translate(-50%, -50%);
     width: 20px;
